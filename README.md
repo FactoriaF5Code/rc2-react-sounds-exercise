@@ -6,11 +6,18 @@ Además de la construcción de una página a partir de componentes, React cuenta
 
 Para comenzar, una vez abierto este proyecto con Visual Studio Code, utiliza el terminal para crear la plantilla de proyecto de React dentro de la misma carpeta, haciendo:
 
+
+> NOTA: al ejecutar el siguiente comando, se cambiará este archivo README. Copia el comando `git restore README.md` para usarlo después de ejecutar la siguiente instrucción
+
 ```
-npm init vite
+npm init vite .
 ```
 
-Selecciona `React` y `Javascript`
+Selecciona la opción `y` (Yes) para crear los archivos del proyecto en esta carpeta. Selecciona `React` y `Javascript`.
+
+
+Recuerda que debes hacer `npm install` la primera vez que arrancas el proyecto, y `npm run dev` para visualizar la página en tu navegador.
+
 
 ## Objetivo
 
